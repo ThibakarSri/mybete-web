@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from '';
+import Features from './components/Features';
 import Footer from '';
 
 const App: React.FC = () => {

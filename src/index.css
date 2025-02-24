@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   font-family: Arial, sans-serif;
   color: #333;
@@ -8,4 +8,126 @@ header, footer {
   background-color: #282c34;
   padding: 20px;
   color: white;
+} */
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #5FB8DD;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-bar li {
+  margin: 0 1rem;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #C5EDFF;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.mobile-app-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.features {
+  background-color: #89D0ED;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 0.5rem 0;
+}
+
+.about-us {
+  background-color: #5EB7CF;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.team {
+  background-color: #C5EDFF;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.team-member {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background-color: #5FB8DD;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
